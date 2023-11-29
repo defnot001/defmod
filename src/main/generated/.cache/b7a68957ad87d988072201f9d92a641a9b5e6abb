@@ -1,0 +1,7 @@
+// 1.20.2	2023-11-29T15:44:56.003856	defmod/Tags for minecraft:block
+7f490c740e52f1dbf5e75ecb2261352d78991d01 data/fabric/tags/blocks/needs_tool_level_4.json
+516ac185c0d1027c4a6176a800c2e03ac1d16d22 data/minecraft/tags/blocks/mineable/pickaxe.json
+d065244924b5b9870a01a1b173b49635cc8e45f7 data/minecraft/tags/blocks/needs_stone_tool.json
+fb95c23010fdb1285f5247b62c425b3ce4cede3c data/minecraft/tags/blocks/needs_iron_tool.json
+2e20f23e517c46c5da4a3655de4efbc81e3744f0 data/minecraft/tags/blocks/needs_diamond_tool.json
+e0ba79462c5e11b8652ab485998d6556bc550dac data/defmod/tags/blocks/metal_detector_detectable_blocks.json

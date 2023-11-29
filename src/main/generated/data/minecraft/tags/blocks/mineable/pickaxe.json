@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "defmod:raw_ruby_block",
+    "defmod:ruby_block",
+    "defmod:ruby_ore",
+    "defmod:deepslate_ruby_ore",
+    "defmod:nether_ruby_ore",
+    "defmod:end_stone_ruby_ore",
+    "defmod:sound_block"
+  ]
+}

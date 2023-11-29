@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "defmod:raw_ruby_block",
+    "defmod:ruby_ore"
+  ]
+}

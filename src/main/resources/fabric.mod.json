@@ -22,7 +22,7 @@
       "io.github.defnot001.DefmodClient"
     ],
     "fabric-datagen": [
-      "io.github.defnot001.datagen.DefmodDataGenerator"
+      "io.github.defnot001.defmod.datagen.DefmodDataGenerator"
     ]
   },
   "mixins": [
