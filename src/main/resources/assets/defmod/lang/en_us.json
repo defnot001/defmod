@@ -1,0 +1,15 @@
+{
+  "item.defmod.ruby": "Ruby",
+  "item.defmod.raw_ruby": "Raw Ruby",
+  "item.defmod.tomato": "Tomato",
+  "item.defmod.metal_detector": "Metal Detector",
+  "item.defmod.coal_briquette": "Coal Briquette",
+  "block.defmod.ruby_block": "Block of Ruby",
+  "block.defmod.raw_ruby_block": "Block of Raw Ruby",
+  "block.defmod.ruby_ore": "Ruby Ore",
+  "block.defmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.defmod.nether_ruby_ore": "Nether Ruby Ore",
+  "block.defmod.end_stone_ruby_ore": "End Stone Ruby Ore",
+  "block.defmod.sound_block": "Sound Block",
+  "itemGroup.defmod.items": "Defmod Items"
+}

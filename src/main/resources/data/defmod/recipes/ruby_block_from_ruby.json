@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "defmod:ruby"
+    }
+  },
+  "result": {
+    "item": "defmod:ruby_block"
+  }
+}

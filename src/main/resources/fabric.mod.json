@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "defmod",
+  "version": "${version}",
+  "name": "defmod",
+  "description": "Testing modding capabilities.",
+  "authors": [
+    "defnot001"
+  ],
+  "contact": {
+    "homepage": "https://github.com/defnot001",
+    "sources": "https://github.com/defnot001/defmod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/defmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.defnot001.defmod.Defmod"
+    ],
+    "client": [
+      "io.github.defnot001.DefmodClient"
+    ],
+    "fabric-datagen": [
+      "io.github.defnot001.datagen.DefmodDataGenerator"
+    ]
+  },
+  "mixins": [
+    "defmod.mixins.json",
+    {
+      "config": "defmod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "minecraft": "~1.20.2",
+    "fabric-api": "*"
+  }
+}
