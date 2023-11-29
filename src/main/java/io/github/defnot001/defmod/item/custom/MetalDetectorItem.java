@@ -1,5 +1,6 @@
 package io.github.defnot001.defmod.item.custom;
 
+import io.github.defnot001.defmod.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionResult;
@@ -10,7 +11,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -37,7 +37,7 @@ public class MetalDetectorItem extends Item {
             for (int i = 0; i < positionClicked.getY() + 64; i++) {
                 BlockState state = context.getLevel().getBlockState(positionClicked.below(i));
 
-                if (isValuableBlock(state)) {
+                if (isMetalBlock(state)) {
                     outputValuableCoordinates(positionClicked.below(i), player, state.getBlock());
                     foundBlock = true;
 
@@ -63,8 +63,8 @@ public class MetalDetectorItem extends Item {
             block.getName().getString(), blockPos.getX(), blockPos.getY(), blockPos.getZ())), false);
     }
 
-    private boolean isValuableBlock(BlockState state) {
-        return state.is(Blocks.IRON_ORE) || state.is(Blocks.RAW_IRON_BLOCK);
+    private boolean isMetalBlock(BlockState state) {
+        return state.is(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS);
     }
 
     @Override
