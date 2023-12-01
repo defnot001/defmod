@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_ruby": {
+    "has_ruby_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "defmod:raw_ruby"
+              "defmod:ruby_block"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:raw_ruby_block"
+        "recipe": "defmod:ruby"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -23,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_ruby"
+      "has_ruby_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:raw_ruby_block"
+      "defmod:ruby"
     ]
   },
   "sends_telemetry_event": false
