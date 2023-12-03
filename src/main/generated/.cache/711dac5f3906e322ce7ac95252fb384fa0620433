@@ -1,7 +1,7 @@
-// 1.20.2	2023-12-01T10:34:25.596617	defmod/Model Definitions
+// 1.20.2	2023-12-01T10:59:00.185063	defmod/Model Definitions
 6b14346ee4fea23878416e41a7407e04659a9c4f assets/defmod/models/block/nether_ruby_ore.json
-e32104d66b3c54b63c57a1690dca8e1f037958cb assets/defmod/models/block/deepslate_ruby_ore.json
 7285fcf0dd0d5ba875325e9c2fc0166ef09adefd assets/defmod/blockstates/ruby_ore.json
+e32104d66b3c54b63c57a1690dca8e1f037958cb assets/defmod/models/block/deepslate_ruby_ore.json
 b0ba7fe6b29a5806b8568ecf374428f69f1ca45a assets/defmod/blockstates/end_stone_ruby_ore.json
 49c5dd8beee6701203cc046c796f1e9d1dd48178 assets/defmod/models/block/sound_block.json
 f70c8e6823d1e3a9fbc6796cfa511ed538195ca6 assets/defmod/blockstates/nether_ruby_ore.json
@@ -22,6 +22,6 @@ f7feeae371c126f2624963cec73a4f30f2f665f7 assets/defmod/models/item/end_stone_rub
 3aef8cf07aa05065c8bed0777e849c146f8da6f9 assets/defmod/blockstates/sound_block.json
 4ec41118708bb534e49e880cbe310d52b0789aba assets/defmod/models/item/deepslate_ruby_ore.json
 6e301131e60a5eb137e5d3329ad6dd31d012cc48 assets/defmod/models/item/raw_ruby.json
-ebece40ab68cdb1d2860fdb9c603bb6e7c998a91 assets/defmod/models/item/raw_ruby_block.json
 6c439a2f699f31dfde2bc758decfd68ebd5db3f8 assets/defmod/models/block/end_stone_ruby_ore.json
+ebece40ab68cdb1d2860fdb9c603bb6e7c998a91 assets/defmod/models/item/raw_ruby_block.json
 c9b417d426d4f5f3a5c8cfe79b985f65f18bef1a assets/defmod/blockstates/raw_ruby_block.json

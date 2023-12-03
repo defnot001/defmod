@@ -1,6 +1,6 @@
-// 1.20.2	2023-12-01T10:34:25.595698	defmod/Recipes
-e66aac853b2a8b06846fedff120c90dcca7a2326 data/defmod/advancements/recipes/misc/ruby_from_smelting_deepslate_ruby_ore.json
+// 1.20.2	2023-12-01T10:59:00.183898	defmod/Recipes
 d9bb990c346ccc2e6f025d1b12786dc36bda2daa data/defmod/advancements/recipes/misc/ruby_from_smelting_nether_ruby_ore.json
+e66aac853b2a8b06846fedff120c90dcca7a2326 data/defmod/advancements/recipes/misc/ruby_from_smelting_deepslate_ruby_ore.json
 1d5d4c0b1a2bc47dc649b70957da76760d0302a1 data/defmod/recipes/ruby_from_smelting_nether_ruby_ore.json
 459ae5e087c2afc96df7c47b4a7316dfe3efeefa data/defmod/recipes/ruby_from_smelting_raw_ruby.json
 fc3feceb8ec5377ac30430f4e433fa7e5c5b4101 data/defmod/advancements/recipes/misc/ruby_from_blasting_ruby_ore.json

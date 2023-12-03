@@ -1,4 +1,4 @@
-// 1.20.2	2023-12-01T10:34:25.59629	defmod/Tags for minecraft:block
+// 1.20.2	2023-12-01T10:59:00.184689	defmod/Tags for minecraft:block
 7f490c740e52f1dbf5e75ecb2261352d78991d01 data/fabric/tags/blocks/needs_tool_level_4.json
 516ac185c0d1027c4a6176a800c2e03ac1d16d22 data/minecraft/tags/blocks/mineable/pickaxe.json
 d065244924b5b9870a01a1b173b49635cc8e45f7 data/minecraft/tags/blocks/needs_stone_tool.json
