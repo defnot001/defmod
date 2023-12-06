@@ -30,6 +30,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         modOreBlasting(exporter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY, 0.7f, 100, "ruby");
 
         modNineBlockStorageRecipesDefaultCategories(exporter, ModItems.RUBY, ModBlocks.RUBY_BLOCK);
+        modNineBlockStorageRecipesDefaultCategories(exporter, ModItems.RAW_RUBY, ModBlocks.RAW_RUBY_BLOCK);
+
+        modStairs(exporter, ModBlocks.RUBY_BLOCK, ModBlocks.RUBY_STAIRS);
+        modSlab(exporter, ModBlocks.RUBY_BLOCK, ModBlocks.RUBY_SLAB);
+        modButton(exporter, ModBlocks.RUBY_BLOCK, ModBlocks.RUBY_BUTTON);
+        modPressurePlate(exporter, ModBlocks.RUBY_BLOCK, ModBlocks.RUBY_PRESSURE_PLATE);
+        modFence(exporter, ModBlocks.RUBY_BLOCK, ModBlocks.RUBY_FENCE);
+        modFenceGate(exporter, ModBlocks.RUBY_BLOCK, ModBlocks.RUBY_FENCE_GATE);
+        modWall(exporter, ModBlocks.RUBY_BLOCK, ModBlocks.RUBY_WALL);
+        modDoor(exporter, ModBlocks.RUBY_BLOCK, ModBlocks.RUBY_DOOR);
+        modTrapdoor(exporter, ModBlocks.RUBY_BLOCK, ModBlocks.RUBY_TRAPDOOR);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RAW_RUBY, 1)
             .pattern("###")

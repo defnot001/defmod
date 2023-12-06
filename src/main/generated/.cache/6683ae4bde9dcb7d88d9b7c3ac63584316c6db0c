@@ -1,4 +1,11 @@
-// 1.20.2	2023-12-01T10:59:00.18492	defmod/Block Loot Tables
+// 1.20.2	2023-12-06T10:32:33.435485	defmod/Block Loot Tables
 a7bdeca2ce5bcccb7731612ecac830762c1a47fa data/defmod/loot_tables/blocks/sound_block.json
 207c4fbebced29eb7eb7faa362cd175b6242d5fb data/defmod/loot_tables/blocks/raw_ruby_block.json
+7805ad34062915b7b9bf47f04f4c2a77a55c1470 data/defmod/loot_tables/blocks/ruby_stairs.json
+65d524348cf350e43c6be0fd47984cbb47fcbe78 data/defmod/loot_tables/blocks/ruby_pressure_plate.json
+a429e9c673187a7e0948d8e3a42b8655a475f4a3 data/defmod/loot_tables/blocks/ruby_fence_gate.json
 e3ba44cc8e17e55352f10ba4f7f2ff1336b5c0fc data/defmod/loot_tables/blocks/ruby_block.json
+182da9dcf9bdf1cdf9472f783de459a9e54cab68 data/defmod/loot_tables/blocks/ruby_button.json
+dbebdb2ea88606cc97559a535eb420d4c1afbe38 data/defmod/loot_tables/blocks/ruby_wall.json
+5d5b3ff8673d40bfc04517a72008d2aa0194bb81 data/defmod/loot_tables/blocks/ruby_trapdoor.json
+9a93f2cd2ef886c0d8f9075d3e48e01e42617523 data/defmod/loot_tables/blocks/ruby_fence.json

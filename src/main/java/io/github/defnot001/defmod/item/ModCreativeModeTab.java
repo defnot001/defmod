@@ -21,11 +21,6 @@ public class ModCreativeModeTab {
                 entries.accept(ModItems.RUBY);
                 entries.accept(ModItems.RAW_RUBY);
 
-                entries.accept(ModItems.TOMATO);
-                entries.accept(ModItems.COAL_BRIQUETTE);
-
-                entries.accept(ModItems.METAL_DETECTOR);
-
                 entries.accept(ModBlocks.RUBY_BLOCK);
                 entries.accept(ModBlocks.RAW_RUBY_BLOCK);
 
@@ -34,6 +29,19 @@ public class ModCreativeModeTab {
                 entries.accept(ModBlocks.NETHER_RUBY_ORE);
                 entries.accept(ModBlocks.END_STONE_RUBY_ORE);
 
+                entries.accept(ModBlocks.RUBY_STAIRS);
+                entries.accept(ModBlocks.RUBY_SLAB);
+                entries.accept(ModBlocks.RUBY_BUTTON);
+                entries.accept(ModBlocks.RUBY_PRESSURE_PLATE);
+                entries.accept(ModBlocks.RUBY_FENCE);
+                entries.accept(ModBlocks.RUBY_FENCE_GATE);
+                entries.accept(ModBlocks.RUBY_WALL);
+                entries.accept(ModBlocks.RUBY_DOOR);
+                entries.accept(ModBlocks.RUBY_TRAPDOOR);
+
+                entries.accept(ModItems.TOMATO);
+                entries.accept(ModItems.COAL_BRIQUETTE);
+                entries.accept(ModItems.METAL_DETECTOR);
                 entries.accept(ModBlocks.SOUND_BLOCK);
             })
             .build()

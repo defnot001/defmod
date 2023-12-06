@@ -10,10 +10,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.WoodType;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -30,6 +29,25 @@ public class ModBlocks {
         new DropExperienceBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f), UniformInt.of(4, 7)));
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
         new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
+        new StairBlock(ModBlocks.RUBY_BLOCK.defaultBlockState(), FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RUBY_SLAB = registerBlock("ruby_slab",
+        new SlabBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RUBY_BUTTON = registerBlock("ruby_button",
+        new ButtonBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK), BlockSetType.IRON, 10, true));
+    public static final Block RUBY_PRESSURE_PLATE = registerBlock("ruby_pressure_plate",
+        new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,
+            FabricBlockSettings.copyOf(Blocks.IRON_BLOCK), BlockSetType.IRON));
+    public static final Block RUBY_FENCE = registerBlock("ruby_fence",
+        new FenceBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RUBY_FENCE_GATE = registerBlock("ruby_fence_gate",
+        new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK), WoodType.ACACIA));
+    public static final Block RUBY_WALL = registerBlock("ruby_wall",
+        new WallBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RUBY_DOOR = registerBlock("ruby_door",
+        new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque(), BlockSetType.IRON));
+    public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
+        new TrapDoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque(), BlockSetType.IRON));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

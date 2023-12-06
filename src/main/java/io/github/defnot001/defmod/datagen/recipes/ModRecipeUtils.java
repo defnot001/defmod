@@ -76,4 +76,58 @@ public class ModRecipeUtils {
         modOreCooking(recipeOutput, RecipeSerializer.SMELTING_RECIPE, ingredients, category, result, experience,
             cookingTime, group, "_from_smelting");
     }
+
+    public static void modStairs(RecipeOutput recipeOutput, ItemLike ingredient, ItemLike stairs) {
+        stairBuilder(stairs, Ingredient.of(ingredient))
+            .unlockedBy(getHasName(ingredient), has(ingredient))
+            .save(recipeOutput, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(stairs)));
+    }
+
+    public static void modSlab(RecipeOutput recipeOutput, ItemLike ingredient, ItemLike slab) {
+        slabBuilder(RecipeCategory.BUILDING_BLOCKS, slab, Ingredient.of(ingredient))
+            .unlockedBy(getHasName(ingredient), has(ingredient))
+            .save(recipeOutput, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(slab)));
+    }
+
+    public static void modButton(RecipeOutput recipeOutput, ItemLike ingredient, ItemLike button) {
+        buttonBuilder(button, Ingredient.of(ingredient))
+            .unlockedBy(getHasName(ingredient), has(ingredient))
+            .save(recipeOutput, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(button)));
+    }
+
+    public static void modPressurePlate(RecipeOutput recipeOutput, ItemLike ingredient, ItemLike pressurePlate) {
+        pressurePlateBuilder(RecipeCategory.REDSTONE, pressurePlate, Ingredient.of(ingredient))
+            .unlockedBy(getHasName(ingredient), has(ingredient))
+            .save(recipeOutput, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(pressurePlate)));
+    }
+
+    public static void modFence(RecipeOutput recipeOutput, ItemLike ingredient, ItemLike fence) {
+        fenceBuilder(fence, Ingredient.of(ingredient))
+            .unlockedBy(getHasName(ingredient), has(ingredient))
+            .save(recipeOutput, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(fence)));
+    }
+
+    public static void modFenceGate(RecipeOutput recipeOutput, ItemLike ingredient, ItemLike fenceGate) {
+        fenceGateBuilder(fenceGate, Ingredient.of(ingredient))
+            .unlockedBy(getHasName(ingredient), has(ingredient))
+            .save(recipeOutput, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(fenceGate)));
+    }
+
+    public static void modWall(RecipeOutput recipeOutput, ItemLike ingredient, ItemLike wall) {
+        wallBuilder(RecipeCategory.BUILDING_BLOCKS, wall, Ingredient.of(ingredient))
+            .unlockedBy(getHasName(ingredient), has(ingredient))
+            .save(recipeOutput, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(wall)));
+    }
+
+    public static void modDoor(RecipeOutput recipeOutput, ItemLike ingredient, ItemLike door) {
+        doorBuilder(door, Ingredient.of(ingredient))
+            .unlockedBy(getHasName(ingredient), has(ingredient))
+            .save(recipeOutput, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(door)));
+    }
+
+    public static void modTrapdoor(RecipeOutput recipeOutput, ItemLike ingredient, ItemLike trapdoor) {
+        trapdoorBuilder(trapdoor, Ingredient.of(ingredient))
+            .unlockedBy(getHasName(ingredient), has(ingredient))
+            .save(recipeOutput, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(trapdoor)));
+    }
 }

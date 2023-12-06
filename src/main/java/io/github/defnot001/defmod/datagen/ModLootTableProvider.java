@@ -22,6 +22,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         dropSelf(ModBlocks.RUBY_BLOCK);
         dropSelf(ModBlocks.RAW_RUBY_BLOCK);
         dropSelf(ModBlocks.SOUND_BLOCK);
+        dropSelf(ModBlocks.RUBY_STAIRS);
+        dropSelf(ModBlocks.RUBY_TRAPDOOR);
+        dropSelf(ModBlocks.RUBY_WALL);
+        dropSelf(ModBlocks.RUBY_FENCE);
+        dropSelf(ModBlocks.RUBY_FENCE_GATE);
+        dropSelf(ModBlocks.RUBY_BUTTON);
+        dropSelf(ModBlocks.RUBY_PRESSURE_PLATE);
+
+        createDoorTable(ModBlocks.RUBY_DOOR);
+        createSlabItemTable(ModBlocks.RUBY_SLAB);
 
         createCustomOreDrops(ModBlocks.RUBY_ORE, ModItems.RAW_RUBY, 2, 5);
         createCustomOreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RAW_RUBY, 3, 6);
