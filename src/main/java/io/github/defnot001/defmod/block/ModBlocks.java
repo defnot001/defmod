@@ -9,7 +9,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.WoodType;
@@ -54,8 +53,8 @@ public class ModBlocks {
         return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(Defmod.MOD_ID, name), block);
     }
 
-    private static Item registerBlockItem(String name, Block block) {
-        return Registry.register(
+    private static void registerBlockItem(String name, Block block) {
+        Registry.register(
             BuiltInRegistries.ITEM,
             new ResourceLocation(Defmod.MOD_ID, name),
             new BlockItem(block, new FabricItemSettings())
