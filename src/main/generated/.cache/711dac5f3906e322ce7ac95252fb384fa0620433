@@ -1,4 +1,4 @@
-// 1.20.2	2023-12-07T13:14:27.069291	defmod/Model Definitions
+// 1.20.2	2023-12-07T15:00:32.793421	defmod/Model Definitions
 15b32e462f8cf9248430fd2ab0d217fb79c9ae46 assets/defmod/models/block/ruby_pressure_plate_down.json
 91745415e3038df2a94071b6e9a8f8863a61882e assets/defmod/models/block/ruby_wall_side.json
 665fb4d21a1f8a30c2ff054007482a061740b637 assets/defmod/blockstates/ruby_door.json
@@ -79,8 +79,8 @@ a1ffc83e25368252b7e35925b13bac9754287025 assets/defmod/models/item/ruby_chestpla
 2ee4159026925a4f061236b270e13ffc1e3d4ef5 assets/defmod/models/item/ruby_boots_quartz_trim.json
 78d5a09067c2ae08dde27b34c86dd676ecf19f13 assets/defmod/blockstates/ruby_wall.json
 2f15da873b9efbb1347cb9328ded289fe76a9506 assets/defmod/models/item/ruby_chestplate_lapis_trim.json
-c204913500b9c424a8e95605216936e12964ea15 assets/defmod/blockstates/ruby_fence_gate.json
 f1886f3d568a5d63518d7c4c74738dc9bfee8c36 assets/defmod/models/item/ruby_wall.json
+c204913500b9c424a8e95605216936e12964ea15 assets/defmod/blockstates/ruby_fence_gate.json
 9bda83def2a4640e29df4cd9f2194e825f986e3e assets/defmod/models/item/ruby_helmet_diamond_trim.json
 c3f8e25c9985c668019029eb1a06a03eb27a77b8 assets/defmod/models/item/ruby_chestplate.json
 d567f8f8d33b3910f8f7d2b77620cf21aec93c18 assets/defmod/models/item/ruby_button.json
@@ -97,8 +97,8 @@ e32104d66b3c54b63c57a1690dca8e1f037958cb assets/defmod/models/block/deepslate_ru
 8b33b7b0f8b308fd0fb7bae6b626889a75febcbd assets/defmod/models/block/ruby_fence_gate_open.json
 f07036b5dc1910b17f1995f2c930b7ff41ee359e assets/defmod/models/block/ruby_fence_post.json
 2fc69ee6b8605516350b48df3c55574dc8265056 assets/defmod/models/block/ruby_door_top_right_open.json
-1f9feef7e9731c161b072c60a6d7971501b69fad assets/defmod/models/item/ruby_fence.json
 f7d4fb2f2a359128a374682de3bbb0b1200f44da assets/defmod/models/item/ruby_sword.json
+1f9feef7e9731c161b072c60a6d7971501b69fad assets/defmod/models/item/ruby_fence.json
 49c5dd8beee6701203cc046c796f1e9d1dd48178 assets/defmod/models/block/sound_block.json
 2661168a99d5d63af5729fe0c8296d98c0307e09 assets/defmod/models/item/ruby_trapdoor.json
 6186254c173628a17102eb6f2ef299340d4f22a6 assets/defmod/models/item/coal_briquette.json
