@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "defmod:ruby_helmet",
+    "defmod:ruby_chestplate",
+    "defmod:ruby_leggings",
+    "defmod:ruby_boots"
+  ]
+}

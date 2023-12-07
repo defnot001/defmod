@@ -106,5 +106,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             .pattern(" #")
             .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
             .save(exporter, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(ModItems.RUBY_AXE)));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.RUBY_HELMET)
+            .define('X', ModItems.RUBY)
+            .pattern("XXX")
+            .pattern("X X")
+            .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+            .save(exporter, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(ModItems.RUBY_HELMET)));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.RUBY_CHESTPLATE)
+            .define('X', ModItems.RUBY)
+            .pattern("X X")
+            .pattern("XXX")
+            .pattern("XXX")
+            .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+            .save(exporter, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(ModItems.RUBY_CHESTPLATE)));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.RUBY_LEGGINGS)
+            .define('X', ModItems.RUBY)
+            .pattern("XXX")
+            .pattern("X X")
+            .pattern("X X")
+            .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+            .save(exporter, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(ModItems.RUBY_LEGGINGS)));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.RUBY_BOOTS)
+            .define('X', ModItems.RUBY)
+            .pattern("X X")
+            .pattern("X X")
+            .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+            .save(exporter, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(ModItems.RUBY_BOOTS)));
     }
 }

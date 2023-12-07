@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.models.BlockModelGenerators;
 import net.minecraft.data.models.ItemModelGenerators;
 import net.minecraft.data.models.model.ModelTemplates;
+import net.minecraft.world.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -51,6 +52,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemGen.generateFlatItem(ModItems.RUBY_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemGen.generateFlatItem(ModItems.RUBY_HOE, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemGen.generateFlatItem(ModItems.RUBY_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
+
+        itemGen.generateArmorTrims((ArmorItem) ModItems.RUBY_HELMET);
+        itemGen.generateArmorTrims((ArmorItem) ModItems.RUBY_CHESTPLATE);
+        itemGen.generateArmorTrims((ArmorItem) ModItems.RUBY_LEGGINGS);
+        itemGen.generateArmorTrims((ArmorItem) ModItems.RUBY_BOOTS);
 
     }
 }

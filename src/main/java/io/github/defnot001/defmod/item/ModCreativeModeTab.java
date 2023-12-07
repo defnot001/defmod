@@ -50,6 +50,11 @@ public class ModCreativeModeTab {
                 entries.accept(ModItems.RUBY_SHOVEL);
                 entries.accept(ModItems.RUBY_SWORD);
                 entries.accept(ModItems.RUBY_HOE);
+
+                entries.accept(ModItems.RUBY_HELMET);
+                entries.accept(ModItems.RUBY_CHESTPLATE);
+                entries.accept(ModItems.RUBY_LEGGINGS);
+                entries.accept(ModItems.RUBY_BOOTS);
             })
             .build()
     );
