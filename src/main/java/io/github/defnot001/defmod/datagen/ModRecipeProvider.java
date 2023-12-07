@@ -51,5 +51,60 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             .unlockedBy(getHasName(Items.STONE), has(Items.STONE))
             .unlockedBy(getHasName(ModItems.RAW_RUBY), has(ModItems.RAW_RUBY))
             .save(exporter, new ResourceLocation(Defmod.MOD_ID, "raw_ruby_from_ruby"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.RUBY_STAFF, 1)
+            .pattern(" R ")
+            .pattern(" # ")
+            .pattern(" # ")
+            .define('#', Items.IRON_INGOT)
+            .define('R', ModItems.RUBY)
+            .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT))
+            .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+            .save(exporter, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(ModItems.RUBY_STAFF)));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.RUBY_PICKAXE)
+            .define('#', Items.STICK)
+            .define('X', ModItems.RUBY)
+            .pattern("XXX")
+            .pattern(" # ")
+            .pattern(" # ")
+            .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+            .save(exporter, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(ModItems.RUBY_PICKAXE)));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.RUBY_SHOVEL)
+            .define('#', Items.STICK)
+            .define('X', ModItems.RUBY)
+            .pattern("X")
+            .pattern("#")
+            .pattern("#")
+            .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+            .save(exporter, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(ModItems.RUBY_SHOVEL)));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.RUBY_SWORD)
+            .define('#', Items.STICK)
+            .define('X', ModItems.RUBY)
+            .pattern("X")
+            .pattern("X")
+            .pattern("#")
+            .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+            .save(exporter, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(ModItems.RUBY_SWORD)));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.RUBY_HOE)
+            .define('#', Items.STICK)
+            .define('X', ModItems.RUBY)
+            .pattern("XX")
+            .pattern(" #")
+            .pattern(" #")
+            .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+            .save(exporter, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(ModItems.RUBY_HOE)));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.RUBY_AXE)
+            .define('#', Items.STICK)
+            .define('X', ModItems.RUBY)
+            .pattern("XX")
+            .pattern("X#")
+            .pattern(" #")
+            .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+            .save(exporter, new ResourceLocation(Defmod.MOD_ID, getSimpleRecipeName(ModItems.RUBY_AXE)));
     }
 }

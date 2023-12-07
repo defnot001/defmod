@@ -42,7 +42,14 @@ public class ModCreativeModeTab {
                 entries.accept(ModItems.TOMATO);
                 entries.accept(ModItems.COAL_BRIQUETTE);
                 entries.accept(ModItems.METAL_DETECTOR);
+                entries.accept(ModItems.RUBY_STAFF);
                 entries.accept(ModBlocks.SOUND_BLOCK);
+
+                entries.accept(ModItems.RUBY_PICKAXE);
+                entries.accept(ModItems.RUBY_AXE);
+                entries.accept(ModItems.RUBY_SHOVEL);
+                entries.accept(ModItems.RUBY_SWORD);
+                entries.accept(ModItems.RUBY_HOE);
             })
             .build()
     );
