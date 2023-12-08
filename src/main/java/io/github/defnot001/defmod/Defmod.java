@@ -3,6 +3,7 @@ package io.github.defnot001.defmod;
 import io.github.defnot001.defmod.block.ModBlocks;
 import io.github.defnot001.defmod.item.ModCreativeModeTab;
 import io.github.defnot001.defmod.item.ModItems;
+import io.github.defnot001.defmod.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
@@ -20,5 +21,6 @@ public class Defmod implements ModInitializer {
         ModBlocks.registerModBlocks();
 
         FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
+        ModLootTableModifiers.modifyLootTables();
     }
 }
