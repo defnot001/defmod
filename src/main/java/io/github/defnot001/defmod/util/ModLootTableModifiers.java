@@ -15,6 +15,8 @@ public class ModLootTableModifiers {
         new ResourceLocation("minecraft", "chests/jungle_temple");
     private static final ResourceLocation CREEPER_RESOURCE_LOCATION =
         new ResourceLocation("minecraft", "entities/creeper");
+    private static final ResourceLocation SUSPICIOUS_SAND_RESOURCE_LOCATION =
+        new ResourceLocation("minecraft", "archaeology/desert_pyramid");
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register(((resourceManager, lootManager, id, tableBuilder, source) -> {
             if (JUNGLE_TEMPLE_RESOURCE_LOCATION.equals(id)) {
@@ -35,6 +37,14 @@ public class ModLootTableModifiers {
                         .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0f, 2.0f))));
 
                 tableBuilder.pool(poolBuilder.build());
+            }
+
+            if (SUSPICIOUS_SAND_RESOURCE_LOCATION.equals(id)) {
+                tableBuilder.modifyPools((builder -> {
+                    builder
+                        .add(LootItem.lootTableItem((ModItems.METAL_DETECTOR))
+                            .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0f))));
+                }));
             }
         }));
     }
